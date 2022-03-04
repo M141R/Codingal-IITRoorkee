@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ '/css/output.css' | url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/css?f[]=panchang@400,500,600,700&f[]=bespoke-stencil@700&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body class="bg-clr1 text-white">
+    {% include 'navbar.njk' %}
+    {{ content | safe}}
+</body>
+</html>

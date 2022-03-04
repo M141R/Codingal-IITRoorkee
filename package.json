@@ -1,0 +1,29 @@
+{
+  "name": "codingal-iitroorkee",
+  "description": "",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "tailwindcss -i src/css/input.css -o src/css/output.css && eleventy",
+    "dev": "eleventy --serve ",
+    "watch": "eleventy --watch",
+    "start:css": "tailwindcss -o src/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mihir-27/Codingal-IITRoorkee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mihir-27/Codingal-IITRoorkee/issues"
+  },
+  "homepage": "https://github.com/Mihir-27/Codingal-IITRoorkee#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  }
+}
